@@ -1,0 +1,26 @@
+## Feature
+
+### Descrição
+<!-- Descrição geral da funcionalidade -->
+
+### Critérios de Aceitação
+<!-- Definir condições obrigatórias para aceitar a feature -->
+- [ ] Critério 1
+- [ ] Critério 2
+
+### Protótipo
+<!-- Imagens do protótipo caso existam, senão comentar essa seção -->
+
+### Documentação Extra
+<!-- PDFs, docx, bpm, fluxos e outros, se existirem, senão comentar essa seção -->
+
+### Responsáveis
+<!-- definir quem vai fazer a issue e quem vai revisar o merge request -->
+
+**Executores**
+- Executor 1
+- Executor 2
+
+**Revisão**
+- Revisor 1
+- Revisor 2
