@@ -15,10 +15,12 @@
 ## Teste
 <!-- descreva como você testou o código -->
 <!--- passo obrigatório -->
-<!-- adicione screenshots para provar o funcionamento correto -->
+<!-- adicione (se aplicável) screenshots para provar o funcionamento correto -->
 
 ## Passos Obrigatórios
 - [ ] Verifiquei se atendi todos os critérios de aceitação
 - [ ] Atualizei a documentação, caso necessário
-- [ ] Fiz o merge (ou rebase) com a branch "alvo"
-- [ ] Se tive de resolver conflitos, verifiquei se houve quebra de funcionalidades
+
+Se tive que resolver conflitos (com merge ou rebase com a branch "alvo"):
+
+- [ ] verifiquei se houve quebra de funcionalidades
