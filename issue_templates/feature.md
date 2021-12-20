@@ -18,7 +18,7 @@
 ### Documentação Extra
 <!-- PDFs, docx, bpm, fluxos e outros, se existirem, senão comentar essa seção -->
 
-### Dependência externa
+### Dependência Externa
 <!-- caso a feature dependa de alguma outra feature, ou de alguma atua- -->
 <!-- lização no banco de dados, ou de um bugfix, descreva aqui -->
 <!-- link para a dependência externa (ex: issue #<numero-da-issue>) -->
