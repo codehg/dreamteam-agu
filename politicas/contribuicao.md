@@ -67,7 +67,7 @@ Ex: bugfix/1-<descrição-do-bug> (Considerando que o bug tenha sido reportado n
 
 * __hotfix/<nome-do-bug>__ - Branch utilizada para corrigir bugs de alta urgência e que estão presentes na branch __master__. 
 Caso o bug tenha sido reportado por uma _issue_ do repositório o nome deverá conter o número da _issue_. 
-Ex: bugfix/1-<descrição-do-bug> (Considerando que o bug tenha sido reportado na _issue_ #1)
+Ex: hotfix/1-<descrição-do-bug> (Considerando que o bug tenha sido reportado na _issue_ #1)
 
 * __release/<versão-da-release>__ - Branch onde será feito os ajustes finais/build antes da entrega de uma versão do produto de software. 
   Constará no nome da branch a versão da release a ser entregue.
