@@ -3,7 +3,7 @@
 
 ## Issue
 <!--- cole o link da issue relacionada aqui -->
-<!-- exemplo: issue/bug/feature #<numero-da-issue> -->
+<!-- exemplo: issue/bug/feature <link> -->
 <!--- passo obrigatório -->
 <!--- se a issue não existir, crie uma -->
 <!-- adicione os revisores da issue -->
