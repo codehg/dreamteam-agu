@@ -21,7 +21,7 @@
 ### Dependência Externa
 <!-- caso a feature dependa de alguma outra feature, ou de alguma atua- -->
 <!-- lização no banco de dados, ou de um bugfix, descreva aqui -->
-<!-- link para a dependência externa (ex: issue #<numero-da-issue>) -->
+<!-- link para a dependência externa (ex: issue <link>) -->
 
 ### Responsáveis
 <!-- definir quem vai fazer a issue e quem vai revisar o merge request -->
