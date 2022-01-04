@@ -1,5 +1,9 @@
 ## Feature
+<!-- adicione o nome da feature -->
+<!-- preferencialmente especifique a sprint e a deadline -->
+**Sprint:** 
 
+**Deadline:** <aaaa/mm/dd>
 ### Descrição
 <!-- Descrição geral da funcionalidade -->
 
@@ -13,6 +17,11 @@
 
 ### Documentação Extra
 <!-- PDFs, docx, bpm, fluxos e outros, se existirem, senão comentar essa seção -->
+
+### Dependência Externa
+<!-- caso a feature dependa de alguma outra feature, ou de alguma atua- -->
+<!-- lização no banco de dados, ou de um bugfix, descreva aqui -->
+<!-- link para a dependência externa (ex: issue <link>) -->
 
 ### Responsáveis
 <!-- definir quem vai fazer a issue e quem vai revisar o merge request -->
