@@ -1,5 +1,9 @@
+<!---Nomear MR-->
+<!---Ex: -->
+<!--- [#NUMERO_ISSUE] Nome do MR -->
+
 ## Descrição
-<!--- your comment goes here and here -->
+<!--- insira uma descrição geral do que foi alterado neste MR -->
 
 ## Issue
 <!--- cole o link da issue relacionada aqui -->
