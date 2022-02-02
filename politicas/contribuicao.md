@@ -13,7 +13,7 @@ o merge request será vinculado. Em caso de outros tipos de artefato, eles devem
 2. Revisor: pessoa(s) responsáveis por verificar a conclusão da issue. Em caso de código, eles devem executar a funcionalidade ou 
 correção de bug para verificar a conclusão.
 
-## Merge Requests 
+## Merge Requests
 
 Os merge requests devem estar obrigatoriamente vinculados a uma issue, e os passos obrigatórios presentes no template, os quais são:
 1. Critérios de aceitação: **todos** os critérios de aceitação devem ser atendidos. Caso os executores discordem ou tenham dúvidas em 
@@ -25,6 +25,32 @@ merge request paralelo com devido rastro para o merge request originário.
 3. Rebase: todos os os merge requests devem se manter "a frente" da branch "alvo" por meio de rebases. Mesmo durante a revisão, 
 se houverem alreações na branch alvo, o executor deve fazer o rebase assim que possível e verificar a integridade das funcionalidades
 afetadas.
+
+__Exemplo:__
+
+    [#NUMERO_ISSUE] Nome do MR
+
+    ## Descrição
+    Este MR faz as mudanças X, Y e Z no modulo Tal com a finalidade de implementar a funcionalidade F.
+
+    ## Issue
+    http:// gitlab......./issues/NUMERO_ISSUE
+
+    ## Principais Alterações
+    A mudança X foi feita por causa de um bug que poderia ocorrer ao implementar a funcionalidade F. Já Y e Z foram ajustes para integrar a nova funcionalidade. Criei uma classe para abrigar o comportamento C.
+
+    ## Teste
+    Para testar envie a requisição: ..... para o endpoint /api/test
+    É esperado que a resposta seja um código 200
+
+    ## Passos Obrigatórios
+    - [ X ] Verifiquei se atendi todos os critérios de aceitação
+    - [ X ] Atualizei a documentação, caso necessário
+
+    Se tive que resolver conflitos (com merge ou rebase com a branch "alvo"):
+
+    - [ X ] verifiquei se houve quebra de funcionalidades
+
 
 
 ## Commits
@@ -49,13 +75,18 @@ Essa Política de Branches deverá guiar os desenvolvedores na forma de organiza
 __OBS__: A política de _branchs_ foi idealizada para trabalhar em conjunto com a ferramenta do _git flow_, sua documentação e
 mais informações podem ser acessadas [aqui](https://github.com/nvie/gitflow).
 
-* __master__ - Branch principal do repositório onde será permitida somente a integração de software consolidado e testado. 
+
+## Branches Principais
+
+* __main__ - Branch principal do repositório onde será permitida somente a integração de software consolidado e testado. 
 Essa branch será exclusiva para a entrega de Realeases, ou seja, um conjunto maior de funcionalidades que integram o software, 
 aqui estará a versão _**stable**_ do software.
 
 * __develop__ - Branch para integração de novas funcionalidades, onde será permitido a entrega das features desenvolvidas e que 
 estão em um estágio avançado de completude. Será o branch base para o início do desenvolvimento das features e da correção de bugs. 
 Aqui também serão mergeadas as releases.
+
+## Branches para Desenvolvimento
 
 * __feature/\<nome-da-feature>__ - Branch utilizada para o desenvolvimento de novas features do _backlog_. Caso a feature tenha sida 
 proposta por uma _issue_ do repositório e aceita no _backlog_ o nome deverá conter o número da _issue_. 
