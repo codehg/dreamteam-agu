@@ -6,36 +6,49 @@ Esse documento determina o fluxo de trabalho para cada projeto, desde sua concep
 
 O processo de engenharia de requisitos compreende um conjunto de atividades. Elas estão listadas a seguir:
 
-1. Concepção: Aqui é preciso definir quem são os clientes (ex.: pessoas da AGU) responsáveis por passar suas necessidades para os analistas de requisitos e qual a visão geral do produto que deve ser desenvolvido.
-2. Elicitação: Nessa etapa, os requisitos são descobertos através de algumas técnicas. É preciso ter a disposição os stakeholders para que sejam interrogados quanto as suas necessidades para o sistema. As técnicas que podem ser utilizadas são:
+1. Concepção: Aqui é preciso definir quem são os clientes (ex.: servidores da AGU) responsáveis por passar suas necessidades para os analistas de requisitos e qual a visão geral do produto que deve ser desenvolvido.
+2. Elicitação: Todo projeto deve iniciar com uma sessão de elicitação com a presença de ao menos um cliente. Nessa etapa, os requisitos são descobertos através de algumas técnicas. É preciso ter a disposição os stakeholders para que sejam interrogados quanto às suas necessidades para o sistema. Algumas técnicas que podem ser utilizadas são:
    * Entrevistas;
    * Questionários;
    * *Brainstorming*;
    * Análise de documentos;
    * Observação;
    * Introspecção;
-3. Especificação: Nessa etapa, detalha-se cada requisito descrito em linguagem natural em modelos conceituais. Alguns diagramas são:
+   * Priorizar os requisitos.
+3. Especificação: Nessa etapa, detalha-se cada requisito descrito em linguagem natural ou em modelos conceituais. Alguns diagramas são:
    * Diagramas de Caso de Uso;
    * Diagramas de bloco;
    * Diagramas Paramétricos;
    * Diagramas de Requisitos;
    * Diagramas de Sequência;
-   * Diagramas de Máquina de Estados;
+   * Diagramas de Máquina de Estados.
 4. Revisão: Nessa etapa, os requisitos devidamente especificados(documentados) serão verificados com todos os envolvidos antes de seguirem para a prototipação.
 
 O resultado dos processos acima será o [documento de visão padrão da IBM](/docs_templates/doc_visao.md) com o backlog do produto definido em *Recursos do Produto*.
 
 ## Prototipação
 
-Uma vez que os requisitos tenham sido devidamente elicitados e documentados, será necessário realizar a prototipação das telas para evitar que código tenha que ser refatorado por conta de aspectos visuais. O *designer* deve validar as telas com os analistas de requisitos para garantir que as telas atendem os requisitos. As telas devem ser vinculadas aos itens do *backlog* do produto e posteriormente inseridas nas *issues* criadas.
+Uma vez que os requisitos tenham sido devidamente elicitados e documentados, será necessário realizar a prototipação das telas para evitar que código tenha que ser refatorado por conta de aspectos visuais e/ou funcionais. O *designer* deve validar as telas com os analistas de requisitos e o cliente para garantir que as telas atendem os requisitos.  As telas devem ser vinculadas aos itens do *backlog* do produto e posteriormente inseridas nas *issues* criadas.
+
+## Planejamento de Projeto
+[Roadmap]
 
 ## Planejamento de Sprint
 
 No início de *sprint* ocorre o [*Sprint Planning*](https://www.scrum.org/resources/what-is-sprint-planning), a equipe (analistas de requisitos e time de desenvolvimento) deve se reunir para fazer a escolha das atividades da *sprint* com base no *backlog* do produto. Após a seleção de atividades, o item selecionado do *backlog* do produto deve ser transformado em uma *issue* no repositório, conforme o *template* de *issue* adequado ([bug](../issue_templates/bug.md) ou [feature](/issue_templates/feature.md)). Cada desenvolvedor ou grupo de desenvolvedores deve ser atribuída uma *issue* que deve ser entregue ao término da *sprint*. Um item do *backlog* do produto (que essencialmente é um requisito), poderá ser resolvido por completo por uma ou mais *issues*.
 
+
 ## Desenvolvimento
 
+
 Após a *issue* ser designada para um desenvolvedor ele deve iniciar os trabalhos necessários para sua realização. O desenvolvedor deve atualizar o estado da *issue* para “*Em andamento*” e buscar atualizar o *Scrum Master* a medida que algum impedimento ou dúvida ocorra.
+
+Ao final de cada dia deverá haver um Daily de no máximo 10 minutos, onde cada desenvolvedor presente deverá responder a três perguntas:
+1. No que você trabalhou hoje?
+2. No que você vai trabalhar amanhã?
+3. Você tem algum impedimento ou dificuldade?
+
+Após a Daily o *Scrum Master* poderá se reunir com os desenvolveores que necessitam de apoio, de preferência os impedimentos devem ser discutidos após a Daily.
 
 É papel do desenvolvedor se manter atento aos padrões estabelecidos para realizar suas contribuições, como o padrão de [*commits*](/politicas/contribuicao.md#Commits) e também ao [*template* da **Merge Request**](../merge_request_templates/mr_template.md) que deverá ser aberta ao final do desenvolvimento.
 
