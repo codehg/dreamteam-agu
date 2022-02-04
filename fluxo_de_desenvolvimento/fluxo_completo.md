@@ -63,7 +63,4 @@ Caso o cliente/PO/analista aprove as alterações, a *issue* pode ser considerad
 
 ## Fechamento da Sprint
 
-Ao final de uma *sprint* a equipe deve se reunir para fazer um balanço do que foi desenvolvido, concluído e do que virará dívida técnica. Além disso, a equipe deve se posicionar sobre aspectos positivos e negativos do que ocorreu na *sprint* para aprimorar o processo de desenvolvimento.
-
-
-
+Ao final de uma *sprint* a equipe deve se reunir para fazer um balanço do que foi desenvolvido, concluído e do que virará dívida técnica. Além disso, a equipe deve se posicionar sobre aspectos positivos e negativos do que ocorreu na *sprint* para aprimorar o processo de desenvolvimento. Mais informações sobre o processo ágil estão disponíveis no documento de [Práticas Ágeis](/politicas/praticas-ageis.md).
