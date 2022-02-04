@@ -23,7 +23,7 @@ O processo de engenharia de requisitos compreende um conjunto de atividades. Ela
    * Diagramas de Máquina de Estados;
 4. Revisão: Nessa etapa, os requisitos devidamente especificados(documentados) serão verificados com todos os envolvidos antes de seguirem para a prototipação.
 
-O resultado dos processos acima será o documento de visão [padrão da IBM](https://www.ibm.com/docs/pt-br/elm/6.0.5?topic=requirements-vision-document) com o backlog do produto definido em *Recursos do Produto*.
+O resultado dos processos acima será o [documento de visão padrão da IBM](/docs_templates/doc_visao.md) com o backlog do produto definido em *Recursos do Produto*.
 
 ## Prototipação
 
