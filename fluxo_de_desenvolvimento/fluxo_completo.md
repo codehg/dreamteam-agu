@@ -31,7 +31,7 @@ Uma vez que os requisitos tenham sido devidamente elicitados e documentados, ser
 
 ## Planejamento de Sprint
 
-No início de *sprint*, a equipe (analistas de requisitos e time de desenvolvimento) deve se reunir para fazer a escolha das atividades da *sprint* com base no *backlog* do produto. Após a seleção de atividades, o item selecionado do *backlog* do produto deve ser transformado em uma *issue* no repositório, conforme o *template* de *issue* adequado ([bug](../issue_templates/bug.md) ou [feature](/issue_templates/feature.md)). Cada desenvolvedor ou grupo de desenvolvedores deve ser atribuída uma *issue* que deve ser entregue ao término da *sprint*. Um item do *backlog* do produto (que essencialmente é um requisito), poderá ser resolvido por completo por uma ou mais *issues*.
+No início de *sprint* ocorre o [*Sprint Planning*](https://www.scrum.org/resources/what-is-sprint-planning), a equipe (analistas de requisitos e time de desenvolvimento) deve se reunir para fazer a escolha das atividades da *sprint* com base no *backlog* do produto. Após a seleção de atividades, o item selecionado do *backlog* do produto deve ser transformado em uma *issue* no repositório, conforme o *template* de *issue* adequado ([bug](../issue_templates/bug.md) ou [feature](/issue_templates/feature.md)). Cada desenvolvedor ou grupo de desenvolvedores deve ser atribuída uma *issue* que deve ser entregue ao término da *sprint*. Um item do *backlog* do produto (que essencialmente é um requisito), poderá ser resolvido por completo por uma ou mais *issues*.
 
 ## Desenvolvimento
 
@@ -63,4 +63,9 @@ Caso o cliente/PO/analista aprove as alterações, a *issue* pode ser considerad
 
 ## Fechamento da Sprint
 
-Ao final de uma *sprint* a equipe deve se reunir para fazer um balanço do que foi desenvolvido, concluído e do que virará dívida técnica. Além disso, a equipe deve se posicionar sobre aspectos positivos e negativos do que ocorreu na *sprint* para aprimorar o processo de desenvolvimento. Mais informações sobre o processo ágil estão disponíveis no documento de [Práticas Ágeis](/politicas/praticas-ageis.md).
+Ao final de uma *sprint* a equipe deve se reunir para fazer um balanço do que foi desenvolvido, concluído e do que virará dívida técnica. Além disso, a equipe deve se posicionar sobre aspectos positivos e negativos do que ocorreu na *sprint* para aprimorar o processo de desenvolvimento. Estas etapas fazem parte das práticas de [*Sprint Review*](https://www.scrum.org/resources/what-is-a-sprint-review) e [*Sprint Retrospective*](https://www.scrum.org/resources/what-is-a-sprint-retrospective).
+
+
+## Observações finais
+
+Mais informações e recursos sobre o processo ágil estão disponíveis no documento de [Práticas Ágeis](/politicas/praticas-ageis.md).
