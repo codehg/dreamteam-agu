@@ -1,7 +1,12 @@
+# Práticas Ágeis
+
+## Objetivo
+
+O objetivo deste documento é demonstrar algumas das ferramentas e oferecer acesso a recursos que podem ser utilizadas em metodologias ágeis.
+
 # Implementação das Práticas Ágeis
 
-
-O desenvolvimento baseado em metodologias ágeis busca minimizar o risco de desenvolver softwares por meio de iterações em pequenos ciclos de desenvolvimento. Scrum, XP e Kanban são algumas das formas de aplicar os conceitos de uma metodologia ágil. Estes são os princípios do ágil:
+O desenvolvimento baseado em metodologias ágeis tem por objetivo minimizar o risco de desenvolver softwares através de iterações em pequenos ciclos de desenvolvimento. [Scrum](https://www.scrum.org/), [EXtreme Programming](http://www.extremeprogramming.org/) e [Kanban](https://www.scrum.org/resources/kanban-guide-scrum-teams) são algumas das formas de aplicar os conceitos de uma metodologia ágil. Estes são os [princípios do ágil](https://agilemanifesto.org/iso/ptbr/manifesto.html):
 
 - Indivíduos e interações mais que processos e ferramentas;
 
@@ -10,38 +15,35 @@ O desenvolvimento baseado em metodologias ágeis busca minimizar o risco de dese
 - Colaboração com o cliente mais que negociação de contratos;
 
 - Responder a mudanças mais que seguir um plano;
+
+<hr>
+
 # Scrum
+
 ## Características do Scrum:
 
-- Trabalho em sprints: Uma sprint é um ciclo de desenvolvimento, geralmente durando uma ou duas semanas, com datas de início, fim e tarefas bem definidas.
-
-- Times pequenos, autogerenciáveis, e papéis bem definidos
+- Trabalho em sprints: [Uma sprint é um ciclo de desenvolvimento](https://www.scrum.org/resources/what-is-a-sprint-in-scrum) com datas de início, data de fim e tarefas bem definidas.
+- Times pequenos, autogerenciáveis, com papéis bem definidos e focados em um objetivo
 
 ## Ferramentas do Scrum:
 
-- Reunião de Planejamento: 
-Reunião realizada ao se iniciar uma Sprint para determinar o que será feito na Sprint e quem será o responsável por cada tarefa;
+- Reunião de Planejamento ([Sprint Planning](https://www.scrum.org/resources/what-is-sprint-planning)): Reunião realizada ao se iniciar uma Sprint para determinar o que será feito na Sprint e quem será o responsável por cada tarefa;
 
-- Daily Meetings:
-Reuniões para acompanhar o andamento da Sprint diariamente em reuniões rápidas de poucos minutos (também conhecido como stand-up meeting);
+- [Daily Meetings](https://www.scrum.org/resources/what-is-a-daily-scrum): Reuniões para acompanhar o andamento da Sprint diariamente em reuniões rápidas de poucos minutos (também conhecido como stand-up meeting);
 
-- Revisão e Retrospectiva da Sprint:
-Reunião que ocorre no final de uma Sprint para pontuar o que deu certo, o que deu errado, e identificar dívidas técnicas, com o objetivo de fazer a melhor contínua do processo de trabalho;
+- [Revisão](https://www.scrum.org/resources/what-is-a-sprint-review) e [Retrospectiva da Sprint](https://www.scrum.org/resources/what-is-a-sprint-retrospective): Reunião que ocorre no final de uma Sprint para pontuar o que deu certo, o que deu errado, e identificar dívidas técnicas, para fazer a melhoria contínua do processo de trabalho;
 
 - Parking lot: quando alguém do time precisa de mais tempo para discutir algo que vai além da daily, isso vai para o “parking lot”. Cabe à quem conduz a daily perguntar se alguém tem algo para o “parking lot” e cabe também a cada indivíduo expressar verbalmente, de preferência, quando tiver algum assunto para discutir depois da daily. Quando necessário, recomenda-se que a daily seja encerrada e que outra reunião inicie-se na sequência para o parking lot, com a presença das pessoas que realmente sejam necessárias para o(s) assunto(s).
+
 ## Cargos no Scrum e responsabilidades:
 
-- Product Owner: 
-Responsável por cuidar dos requisitos de software e garantir a qualidade do produto;
+- Product Owner: Responsável por cuidar dos requisitos de software e garantir a qualidade do produto;
 
-- Scrum Master:
-Responsável por garantir o funcionamento das práticas ágeis, ajudar na comunicação e remoção de impedimentos;
+- Scrum Master: Responsável por garantir o funcionamento das práticas ágeis, ajudar na comunicação e remoção de impedimentos;
 
-- DevOps:
-Responsável garantir a entrega do software nos ambientes de homologação e/ou produção;
+- DevOps: Responsável garantir a entrega do software nos ambientes de homologação e/ou produção;
 
-- Team: 
-Demais desenvolvedores, responsáveis pela realização de tarefas;
+- Time: Demais desenvolvedores, responsáveis pela realização de tarefas;
 
 ## Artefatos gerados no Scrum:
 
@@ -51,7 +53,11 @@ Demais desenvolvedores, responsáveis pela realização de tarefas;
 
 ![praticas-do-scrum](../images/praticas-do-Scrum.png)
 
+<hr>
+
 # Kanban
+
+<hr>
 
 # XP
 
@@ -63,17 +69,17 @@ Entretanto, espera-se que, ao passar do tempo, os times dos projetos do Latitude
 
 ## Valores do XP
 
-São 5 ao todo, todos muito importantes e que têm como objetivo trazer melhorias para a equipe em vários âmbitos, o que afeta na qualidade do trabalho e resulta em software bem feito.
+São 5 ao todo, todos muito importantes e têm como objetivo trazer melhorias para a equipe em vários âmbitos, o que afeta na qualidade do trabalho e resulta em software bem feito.
 
 Embora possa parecer pouco ter somente 5 valores, prefere-se focar, inicialmente, em apenas 3 deles. Isso para não causar uma chuva de informações e de práticas nos indivíduos. Com o tempo, os valores estarão presentes na cultura da organização de modo natural ao ponto dos outros valores começarem a ser explorados mais facilmente.
 
-Sendo assim, inicialmente sugere-se o foco nos seguintes valores: **comunicação, simplicidade e respeito**. Posteriormente serão introduzidos os valores restantes: feedback e coragem.
+Sendo assim, inicialmente sugere-se o foco nos seguintes valores: **comunicação, simplicidade e respeito**. Posteriormente serão introduzidos os valores restantes: *feedback* e coragem.
 
 Agora vejamos cada um dos valores na íntegra:
 
 - Comunicação: desenvolver software requer uma equipe disciplinada e colaborativa. A comunicação é chave para que o conhecimento e a informação sejam transferidos de um membro para cada outro na equipe. O XP reforça a importância da comunicação de forma apropriada, ou seja, dando preferência para conversas face-a-face com o suporte de algum mecanismo de desenho (ex.: quadro branco);
 
-- Simplicidade: significa fazer a coisa mais simples e que funcione. Isso evita fazer o que é desnecessário e traz o foco para aspectos mais importantes, como manter o projeto (design) do sistema o mais simples possível. Assim, manter, dar suporte e revisar o software fica mais fácil;
+- Simplicidade: significa fazer a coisa mais simples e funcional. Isso evita fazer o que é desnecessário e traz o foco para aspectos mais importantes, como manter o projeto (design) do sistema o mais simples possível. Assim, manter, dar suporte e revisar o software fica mais fácil;
 
 - Respeito: é preciso haver um respeito mútuo entre todos os membros do time para que possam se comunicar, além de fornecer e aceitar feedback que honre o relacionamento. Além disso, com respeito o time trabalha junto para identificar soluções e projetos simples.
 
@@ -100,14 +106,14 @@ Com isso, as principais práticas a serem adotadas em um primeiro momento são e
 
 ### Recursos úteis
 
-[1] Manifesto Ágil: \< https://agilemanifesto.org/iso/ptbr/manifesto.html >
+[1] Manifesto Ágil - [https://agilemanifesto.org/iso/ptbr/manifesto.html](https://agilemanifesto.org/iso/ptbr/manifesto.html)
 
-[2] Os 12 Princípios do Software Ágil: \< https://agilemanifesto.org/iso/ptbr/principles.html >
+[2] Os 12 Princípios do Software Ágil - [https://agilemanifesto.org/iso/ptbr/principles.html](https://agilemanifesto.org/iso/ptbr/principles.html)
 
-[3] What is Extreme Programming ?: \< https://www.agilealliance.org/glossary/xp/ >
+[3] What is Extreme Programming? - [https://www.agilealliance.org/glossary/xp/](https://www.agilealliance.org/glossary/xp/)
 
-[4] Extreme Programming: A gentle introduction: \< http://www.extremeprogramming.org >
+[4] Extreme Programming: A gentle introduction - [http://www.extremeprogramming.org](http://www.extremeprogramming.org)
 
-[5] The Rules of Extreme Programming: \< http://www.extremeprogramming.org/rules.html >
+[5] The Rules of Extreme Programming - [http://www.extremeprogramming.org/rules.html](http://www.extremeprogramming.org/rules.html)
 
-[6] What is Scrum ?: \< https://www.scrum.org/resources/what-is-scrum >
+[6] What is Scrum? - [https://www.scrum.org/resources/what-is-scrum](https://www.scrum.org/resources/what-is-scrum)
