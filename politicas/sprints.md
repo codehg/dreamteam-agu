@@ -1,6 +1,6 @@
 # Sprints
 
-Este documento determina o fluxo de trabalho, o qual se orienta através de sprints.
+Este documento determina o fluxo de trabalho, o qual se orienta por meio de sprints.
 
 ## Planejamento
 
