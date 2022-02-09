@@ -7,7 +7,7 @@ Esse documento determina o fluxo de trabalho para cada projeto, desde sua concep
 O processo de engenharia de requisitos compreende um conjunto de atividades. Elas estão listadas a seguir:
 
 1. Concepção: Aqui é preciso definir quem são os clientes (ex.: servidores da AGU) responsáveis por passar suas necessidades para os analistas de requisitos e qual a visão geral do produto que deve ser desenvolvido.
-2. Elicitação: Todo projeto deve iniciar com uma sessão de elicitação com a presença de ao menos um cliente. Nessa etapa, os requisitos são descobertos através de algumas técnicas. É preciso ter a disposição os stakeholders para que sejam interrogados quanto às suas necessidades para o sistema. Nessa etapa todos os requisitos devem ser priorizados para determinar a ordem de desenvolvimento dos recursos. Algumas técnicas que podem ser utilizadas são:
+2. Elicitação: Todo projeto deve iniciar com uma sessão de elicitação com a presença de ao menos um cliente. Nessa etapa, os requisitos são descobertos por meio de algumas técnicas. É preciso ter a disposição os stakeholders para que sejam interrogados quanto às suas necessidades para o sistema. Nessa etapa todos os requisitos devem ser priorizados para determinar a ordem de desenvolvimento dos recursos. Algumas técnicas que podem ser utilizadas são:
    * Entrevistas;
    * Questionários;
    * *Brainstorming*;
