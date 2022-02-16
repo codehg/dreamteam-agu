@@ -57,7 +57,7 @@ O desenvolvimento baseado em metodologias ágeis tem por objetivo minimizar o ri
 
 # Kanban
 
-O Kanban é uma metodologia de desenvolvimento altamente customizável que, de forma geral, consiste em distribuir tarefas em listas, onde cada lista representa um estado no processo de desenvolvimento. Esta metodologia é flexível e pode ser adaptada para melhor se adaptar as atividades do projeto. Algumas exemplos de listas que podem ser utilizadas são:
+O Kanban é uma metodologia de desenvolvimento altamente customizável que, de forma geral, consiste em distribuir tarefas em listas, onde cada lista representa um estado no processo de desenvolvimento. Esta metodologia é flexível e pode ser adaptada para melhor se encaixar às atividades as atividades do projeto. Algumas exemplos de listas que podem ser utilizadas são:
 
 * Backlog do Produto: Tarefas planejadas que ainda serão feitas, mas não na sprint atual;
 * Backlog da Sprint: Tarefas que devem ser feitas na sprint atual;
