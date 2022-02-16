@@ -7,7 +7,7 @@ Esse documento determina o fluxo de trabalho para cada projeto, desde sua concep
 O processo de engenharia de requisitos compreende um conjunto de atividades. Elas estão listadas a seguir:
 
 1. Concepção: Aqui é preciso definir quem são os clientes (ex.: servidores da AGU) responsáveis por passar suas necessidades para os analistas de requisitos e qual a visão geral do produto que deve ser desenvolvido.
-2. Elicitação: Todo projeto deve iniciar com uma sessão de elicitação com a presença de ao menos um cliente. Nessa etapa, os requisitos são descobertos por meio de algumas técnicas. É preciso ter a disposição os stakeholders para que sejam interrogados quanto às suas necessidades para o sistema. Nessa etapa todos os requisitos devem ser priorizados para determinar a ordem de desenvolvimento dos recursos. Algumas técnicas que podem ser utilizadas são:
+2. Elicitação: Todo projeto deve iniciar com uma sessão de elicitação com a presença de ao menos um cliente. Nessa etapa, os requisitos são descobertos por meio de algumas técnicas. É preciso ter a disposição os stakeholders para que sejam interrogados quanto às suas necessidades para o sistema. Algumas técnicas que podem ser utilizadas são:
    * Entrevistas;
    * Questionários;
    * *Brainstorming*;
@@ -34,13 +34,19 @@ Uma vez que os requisitos tenham sido devidamente elicitados e documentados, ser
 
 ## 3 - Planejamento de Projeto
 
-Se dará por meio de uma reunião com os desenvolvidores e os analistas para atribuir os recursos às sprints. Todos os recursos devem ser alocados à uma sprint de forma a estimar o prazo do projeto.
+Se dará por meio de uma reunião com os desenvolvidores e os analistas para priorizar os recursos e atribuí-los às sprints, de forma a estimar o prazo do projeto. A imagem abaixo exempifica como essa distribuição é feita.
+
+<img src="https://user-images.githubusercontent.com/31005087/154260635-ea5f54b9-3cfd-4ae8-8e70-2833572f1841.png" alt="image" style="height: 300px;">
+
+É importante lembrar que esse *roadmap* está sujeito a mudanças. Portanto, a cada sprint ele será revisado, onde poderão ser adicionadas novas tarefas e a ordem de prioridade também pode mudar.
 
 ## 4 - Planejamento de Sprint
 
 Antes de se iniciar uma *sprint* deve ser feita uma reunião entre os gerentes do projeto para definir, com base no *backlog*, a prioridade das tarefas e quais serão apresentadas para os desenvolvedores no *Sprint Planning*.
 
-No início de *sprint* ocorre o [*Sprint Planning*](https://www.scrum.org/resources/what-is-sprint-planning), a equipe (analistas de requisitos e time de desenvolvimento) deve se reunir para fazer a escolha das atividades da *sprint* com base no *backlog* do produto. Após a seleção de atividades, o item selecionado do *backlog* do produto deve ser transformado em uma *issue* no repositório, conforme o *template* de *issue* adequado ([bug](../issue_templates/bug.md) ou [feature](/issue_templates/feature.md)). Cada desenvolvedor ou grupo de desenvolvedores deve ser atribuída uma *issue* que deve ser entregue ao término da *sprint*. Um item do *backlog* do produto (que essencialmente é um requisito), poderá ser resolvido por completo por uma ou mais *issues*.
+No início de *sprint* ocorre o [*Sprint Planning*](https://www.scrum.org/resources/what-is-sprint-planning), a equipe (analistas de requisitos e time de desenvolvimento) deve se reunir para fazer a escolha das atividades da *sprint* com base no *backlog* do produto. Após a seleção de atividades, o item selecionado do *backlog* do produto deve ser transformado em uma *issue* no repositório, conforme o *template* de *issue* adequado ([bug](../issue_templates/bug.md) ou [feature](/issue_templates/feature.md)). 
+
+Uma issue deve corresponder a uma funcionalidade completa (front, back, testes, etc) que agrega valor ao produto do ponto de vista do usuário final. Cada desenvolvedor ou grupo de desenvolvedores deve ser atribuída uma *issue* que deve ser entregue ao término da *sprint*. Um item do *backlog* do produto (que essencialmente é um requisito), poderá ser resolvido por completo por uma ou mais *issues*.
 
 
 ## 5 - Desenvolvimento
@@ -84,7 +90,7 @@ Caso o cliente/*Product Owner* aprove as alterações, a *issue* pode ser consid
 
 ## 9 - Fechamento da Sprint
 
-Ao final de cada *sprint* a equipe de TI deve se reunir para fazer um balanço do que foi desenvolvido, concluído e do que virará dívida técnica. Além disso, a equipe deve se posicionar sobre aspectos positivos e negativos do que ocorreu na *sprint* para aprimorar o processo de desenvolvimento. Estas etapas fazem parte das práticas de [*Sprint Review*](https://www.scrum.org/resources/what-is-a-sprint-review) e [*Sprint Retrospective*](https://www.scrum.org/resources/what-is-a-sprint-retrospective), respectivamente.
+Ao final de cada *sprint* a equipe de TI deve se reunir para fazer um balanço do que foi desenvolvido, concluído e do que se tornará dívida técnica. Além disso, a equipe deve se posicionar sobre aspectos positivos e negativos do que ocorreu na *sprint* para aprimorar o processo de desenvolvimento. Estas etapas fazem parte das práticas de [*Sprint Review*](https://www.scrum.org/resources/what-is-a-sprint-review) e [*Sprint Retrospective*](https://www.scrum.org/resources/what-is-a-sprint-retrospective), respectivamente.
 
 
 ## Observações finais
