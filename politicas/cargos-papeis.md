@@ -27,11 +27,22 @@ O "dono do produto" (PO - product owner) tem papel fundamental em entender a nec
 Guy
 Erick
 Matheus -->
+
+O desenvolvimento de back-end abrange a lógica e a integração de aplicativos do lado do servidor e outras atividades, como escrever APIs, criar bibliotecas e trabalhar com componentes do sistema. Os desenvolvedores de back-end criam código que permite que um banco de dados e um aplicativo se comuniquem entre si.
+Eles também são responsáveis pelo back-end de um site, que inclui servidores, bancos de dados e aplicativos.
+
+No contexto do projeto, os backend developers irão dar início ao desenvolvimento do software modelando o banco de dados e depois projetando os endpoints que serão consumidos pelo frontend. Idealmente, não devem trabalhar como um grupo isolado, pois os outros membros da equipe de desenvolvimento (front, UI/UX, PO) podem colaborar para que as decisões do backend não resultem em requições que sejam difíceis de consumir pelo frontend ou em uma modelagem de banco que não atendem os requisitos de negócio.
+
 ## Front
 <!-- Irwin
 Fernando Lacerda
 Lameque
 Antonio -->
+Os desenvolvedores web front-end cuidam dos recursos que são imediatamente observáveis e acessíveis pelo usuário final ou cliente. Eles também contribuem para o design geral e a estética. Os principais objetivos do desenvolvimento frontend são a capacidade de resposta e o desempenho.
+
+No contexto do projeto, eles devem trabalhar continuamente em conjunto com os backend developers para definir a melhor estratégia de requisições, de forma que o número de requisições seja otimizado tanto para a interface quanto para o processamento backend. Eles devem gerar telas conforme protótipo desenvolvido pelo UI/UX.
+
+
 ## Testes
 <!-- Lucas
 Jessica
