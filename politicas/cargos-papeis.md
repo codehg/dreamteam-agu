@@ -79,6 +79,8 @@ Responsável garantir a entrega do software nos ambientes de homologação e/ou 
 
 O responsável pelo DevOps comumente utilizará recursos como IaC (Infrastructure as Code - infraestrutura como código), pipelines (sequências de comandos/scripts automáticos) de testes e/ou deploy, políticas, para garantir um CI (Continuous Integration - integração contínua) e um CD (Continuous Deployment - entrega contínua).
 
+No contexto do projeto, as atividades desempenhadas por um DevOps dependem do software que está sendo desenvolvido. Sejam elas: migrar o esquema de deploy de um software para uma pipeline de CI/CD, ou desenvolver novas pipelines, ou implementar políticas e culturas para garantir a melhor execução da entrega do software, também é sua responsabilidade realizar quaisquer operações de infraestrutura necessárias para a execução e entrega do software. O papel de DevOps não precisa, necessariamente, ser desempenhado por uma pessoa, podendo ser uma prática difundida por todo o time.
+
 <hr>
 
 ### Referências
