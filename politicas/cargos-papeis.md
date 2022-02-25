@@ -44,6 +44,9 @@ O PO faz o gerenciamento eficaz do *Product Backlog* (backlog do produto). Ele d
 
 As decisões do PO devem ser respeitadas e obedecidas por todos. Caso alguém do time queira mudar o backlog do produto, deve convencer o PO a fazê-lo.
 
+## Analista de Requisitos
+
+
 ## Back
 <!-- Dario
 Guy
